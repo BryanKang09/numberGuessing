@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    height: 80px;
+    background: whilte;
+    font-family: 'Abril Fatface', serif;
+}
+
+section{
+    height: 800px;
+    background: url(https://img.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_53876-117324.jpg?size=626&ext=jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+section:before{
+    content:'';
+    background: linear-gradient(to top, white, transparent);
+    position: absolute;
+    bottom: 0;
+    height: 150%;
+    width: 100%;
+}
+
+.photo{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+
+
+.borderBlack {
+    border: 5px solid black;
+
+}
+
+.imageSize{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+}
+/* 
+.result-area{
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    margin: auto auto;
+} */
+
+
+
+
+h1{
+    font-size: 4em;
+    width: 500px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Abril Fatface', serif;
+    position: absolute;
+    top: 60px;
+    left: 700px;
+    animation: slide 1.5s ease-out;
+
+}
+.chance-area{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -55px;
+}
+
+.result-area{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    top: 50%;
+    margin-top: -250px;
+}
+
+
+.reset-area{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    margin-left: 10px;
+    top: 50%;
+    margin-top: 00px;
+
+}
+
+.number-area{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -180px;
+
+}
+
+.play-area{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+    width:150px ;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: 0px;
+
+}
+
+
+
+one{
+    font-size: 1em;
+    width: 500px;
+    color: rgb(18, 35, 93);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 750px;
+    animation: slide 1.5s ease-out;
+}
+
+@keyframes slide {
+    from{
+        left:50px;
+        opacity: 0;
+
+    }
+    to{
+        left: 750px;
+        opacity: 1;
+    }
+}
+
+@keyframes disappear{
+    from{
+        left: 400px;
+        opacity: 1;
+    }
+    to {
+        left: 50px;
+        opacity: 1;
+    }
+}
